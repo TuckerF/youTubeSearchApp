@@ -1,9 +1,19 @@
 $(document).ready(function(){
 
+$(document).keypress(function(event){
+	if(event.keyCode == 13){  // the enter key code 
+		event.preventDefault();
+		var searchTerm = $('#query').val();
+		getRequest(searchTerm);
+		$("#query").val(' ');
+	}
+});
+
 $('#submit').click(function(event){
 	event.preventDefault();
 	var searchTerm = $('#query').val();
 	getRequest(searchTerm);
+	$("#query").val(' ');
 });
 
 
