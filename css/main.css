@@ -1,0 +1,32 @@
+#submit{
+	display: inline-block;
+	width: 150px;
+	margin-right: auto;
+	border: solid 1px black;
+	color: white;
+	background-color: #730000;
+	border-radius: 5px;
+	height:18px;
+	padding: 2px;
+	margin-left: 72px;
+}
+
+#query {
+	border-radius: 5px;
+	border: 1px solid black;
+	height: 20px;
+}
+
+#div {
+	margin-top: 2rem;
+	text-align: center;
+	width:100%;
+}
+
+#results {
+	border: solid 1px black;
+	width:400px;
+	margin:0 auto;
+	margin-top: 1rem;
+	border-radius: 5px;
+}
